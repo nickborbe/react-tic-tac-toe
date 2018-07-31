@@ -148,7 +148,6 @@ class Square extends React.Component {
       return (
         <div className="game">
           <div className="game-board">
-          {/* conditionally show the reset button only once the game is over */}
                 {this.showTheResetButton()}
             <Board
             squares = {current.squares}
